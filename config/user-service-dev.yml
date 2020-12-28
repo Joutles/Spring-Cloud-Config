@@ -19,7 +19,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh.stream
+        include: refresh
      
 ---
 spring:  profiles: userservice1
