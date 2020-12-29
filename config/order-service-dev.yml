@@ -8,6 +8,12 @@ spring:
     config:
       override-none: true
 
+  rabbitmq:
+    host: 192.168.178.132
+    port: 5672
+    username: admin
+    password: admin
+
 # 应用服务 WEB 访问端口
 #server:
   #port: 8201
